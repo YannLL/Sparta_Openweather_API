@@ -12,5 +12,10 @@ end
 super_class = OpenweatherAPI.new
 city = super_class.single_city_weather
 city.get_response
-# city.print_result
+city.print_result
+# city.get_temp
+# city.get_temp_minmax
+# city.get_weather
+# city.get_weather_id
+# city.print_coords
 # city.print_fragments
