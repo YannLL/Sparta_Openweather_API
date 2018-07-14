@@ -11,7 +11,7 @@ describe 'OpenWeather API test' do
     end
 
     it 'should return a sring value for name' do
-      # qwerty
+      expect(@city.get_name).to be_a String
     end
 
     xit 'should return coordinates as a hash containing 2 items' do
