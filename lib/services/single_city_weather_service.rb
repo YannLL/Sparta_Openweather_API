@@ -15,8 +15,8 @@ class SingleCityWeather
     @city = JSON.parse(self.class.get("?q=london&appid=#{@api_key}").body)
   end
 
-  def print_result
-    p @city
-  end
-  
+  # def print_result
+  #   p @city
+  # end
+
 end
